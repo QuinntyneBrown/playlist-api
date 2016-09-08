@@ -213,6 +213,8 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Compile Include="libs\jquery.min.js" />
+    <Compile Include="libs\slick.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />

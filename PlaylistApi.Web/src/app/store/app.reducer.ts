@@ -1,8 +1,8 @@
 import { Action } from "@ngrx/store";
-import { ADD_APP_SUCCESS, GET_APP_SUCCESS, REMOVE_APP_SUCCESS } from "../../../constants";
-import { initialState } from "../../initial-state";
-import { AppState } from "../../app-state";
-import { App } from "../../../models";
+import { ADD_APP_SUCCESS, GET_APP_SUCCESS, REMOVE_APP_SUCCESS } from "../constants";
+import { initialState } from "./initial-state";
+import { AppState } from "./app-state";
+import { App } from "../models";
 import { addOrUpdate, pluckOut } from "../utilities";
 
 export const appsReducer = (state: AppState = initialState, action: Action) => {
